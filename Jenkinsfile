@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'docker build -t ngpsanjaya/alpine:3.18.0'
+                sh 'docker build -t ngpsanjaya/alpine:3.18.0 .'
             }
         }
     }
